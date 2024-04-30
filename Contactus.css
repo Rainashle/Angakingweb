@@ -1,0 +1,78 @@
+.line {
+  background: linear-gradient(#4961E1, #00BFFF);
+  margin-right: 4px;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 3px solid #191970;
+  opacity: 90%;
+}
+.button{
+position:relative;
+top:-130px;
+left:30%;
+margin-right: 2px;
+border:none;
+color: black;
+padding: 10px 10px;
+text-align:center;
+text-decoration:none;
+cursor: pointer;
+background: transparent;
+border:3.3px #ff9900;
+font-size: 25px;
+border:3px solid white;
+}
+.button:hover{
+background: #00008B;
+color: white ;
+border-radius: 20px ;
+background-color: navy ;
+}
+.h6{
+margin-left: 80px ;
+top: -50px;
+font-size: 40px ;
+font-family: cursive;
+position:relative ;
+}
+.h7 {
+  margin-left: 80px;
+  margin-top: -150px;
+  font-size: 30px ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.email{
+  font-size: 100px ;
+  font-family:Trebuchet 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+fieldset  { 
+background-color :orchid;
+position:fixed;
+width:70%;
+height: 350px ;
+font-size: 30px ;
+margin: auto;
+position: center;
+}
+legend{
+background-color:gray;
+color:white;
+padding: 5px 10px;
+}
+input  {
+
+margin: 5px ;
+font-size: 30px ;
+}
+.Submit {
+  font-size: 80px ;
+  font-family: Cursive ;
+  color: navy;
+  background-color: navajowhite;
+  border-radius: 20px ;
+  rotate: -10deg;
+}

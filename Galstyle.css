@@ -1,0 +1,136 @@
+.line {
+  background: linear-gradient(#4961E1, #00BFFF);
+  margin-right: 4px;
+  padding: 5px;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 3px solid #191970;
+  opacity: 90%;
+}
+.button{
+position:relative;
+top:-130px;
+left:30px;
+border:none;
+color: black;
+padding: 10px 10px;
+text-align:center;
+text-decoration:none;
+cursor: pointer;
+background: transparent;
+border:3.3px #ff9900;
+font-size: 25px;
+border:3px solid white;
+}
+.button:hover{
+background: #00008B;
+color: white ;
+border-radius: 20px ;
+background-color: navy ;
+}
+.h6{
+margin-left: 80px ;
+top: -50px;
+font-size: 40px ;
+font-family: cursive;
+position:relative ;
+}
+.h7 {
+  margin-left: 80px;
+  margin-top: -150px;
+  font-size: 30px ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+ width :90%;
+ padding :20px;
+ margin :100px auto;
+ display :flex;
+ flex-direction : row;
+ justify-content : center;
+ top: -400px;
+}
+.img{
+display:block;
+width:100%;
+border-radius: 5px;
+margin-top:0px;
+cursor: pointer;
+
+}
+.box{
+width:300px;
+height: 100%;
+margin: 0px 10px;
+box-shadow:0px 0px 20px rgba(0,0,0, .1);
+transition: 1s;
+}
+.box img{
+display:block;
+width:100%;
+border-radius: 5px;
+}
+.box:hover{
+transform: scale(2.3);
+z-index:2;
+}
+.headg{
+  font-size: 100px ;
+  font-family: cursive ;
+  color: navy;
+  background-color: lightgoldenrodyellow;
+  border:2px solid black;
+  width:50%;
+}
+.contain {
+  width: 90%;
+  padding: 20px;
+  margin: 100px 1px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  top: -900px;
+  margin-left: 5px;
+  margin-right: 5px ;
+  
+}
+.im1{
+  width:100%;
+  height:120px ;
+  margin-top :20px;
+  border:5px solid black ;
+}
+.im2{
+  width: 100%;
+  height: 140px;
+  margin-top :10px ;
+  border: 5px solid black ;
+}
+.im3{
+  width:100%;
+  height: 170px ;
+  margin-top: -5px;
+  border: 5px solid black;
+}
+.dot {
+  height: 70px;
+  width: 60px;
+  background-color: lightskyblue;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 250px;
+  position: relative;
+  top:60px ;
+  border: 2px solid black;
+  position: center;
+  right: -1px ;
+  font-size: 80px;
+  color:navy;
+  font-weight : bolder ;
+}
+.word{
+  font-family: cursive ;
+}
